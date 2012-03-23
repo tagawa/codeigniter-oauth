@@ -13,7 +13,6 @@ Facebook and Twitter are currently supported.
 This spark is a work in progress.  Things to be added:
 
 - Lots of refactoring
-- Responses in lang file (sounds like an easy pull request to me!)
 - More Oauth providers
 
 ## Installing
@@ -25,6 +24,8 @@ You can then load the spark with this:
 ```php
 $this->load->spark('codeigniter-oauth/');
 ```
+
+In the package there is a sample controller and view for reference. Remember to add your details to the config file, as well as setting your success callback URL in the Twitter/Facebook admin interface.
 
 ## Usage Example
 
